@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Design</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        /* th {
+            background-color: #981f1f;
+        } */
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Magazine Subscription Form</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <td><input type="text" placeholder="Enter Name"></td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <th>City</th>
+            <td><input type="text" placeholder="Enter City"></td>
+        </tr>
+        <tr>
+            <th>State</th>
+            <td><input type="text" placeholder="Enter State"></td>
+        </tr>
+        <tr>
+            <th>Pin Code</th>
+            <td><input type="text" placeholder="Enter Pin"></td>
+        </tr>
+        <tr>
+            <th>Select Magazine</th>
+            <td>
+                
+                   <label > <input type="checkbox" name="magazine"value ="A">magazine A</label><br>
+                    <label ><input type="checkbox" name="magazine"value ="B">magazine B</label><br>
+                    <label ><input type="checkbox" name="magazine"value ="C">magazine C</label><br>
+                    <label ><input type="checkbox" name="magazine"value ="D">magazine D</label><br>
+                    <label ><input type="checkbox" name="magazine"value ="E">magazine E</label><br>
+                
+            </td>
+            
+        </tr>
+        <!-- <tr>
+            <th>Subscription Period</th>
+            <td>
+                <select>
+                    <option>1 Year</option>
+                    <option>2 Year</option>
+                </select>
+            </td>
+        </tr> -->
+        <tr>
+            <th>Subsciption period</th>
+            <td>
+                <label > <input type="radio" name="subscription">1 year</label> <br>
+                
+                <label > <input type="radio" name="subscription">2 year</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td  style="text-align: left;">
+                <button type="submit">Submit</button>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
